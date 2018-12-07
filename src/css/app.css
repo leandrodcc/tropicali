@@ -65,14 +65,14 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-gap: var(--gap-spacing);
     align-items: center;
-}
 
-.grid p {
-    margin: 20px 0;
-}
+    p {
+        margin: 20px 0;
+    }
 
-.grid img {
-    width: 100%;
+    img {
+        width: 100%;
+    }
 }
 
 .button {

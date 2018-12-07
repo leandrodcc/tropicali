@@ -22,6 +22,7 @@ gulp.task("css", function() {
     .pipe(
         postcss([
             require("autoprefixer"),
+            require('postcss-nested'), 
             require("postcss-preset-env")({ 
                 stage: 1,
                 browsers: ["IE 11", "last 2 versions"]
